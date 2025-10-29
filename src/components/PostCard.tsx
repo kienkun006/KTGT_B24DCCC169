@@ -52,13 +52,13 @@ const PostCard: React.FC<PostCardProps> = ({ post, onDelete }) => {
               onClick={() => navigate(`/posts/edit/${post.id}`)}
               className="btn edit"
             >
-              ✏️
+              Viết
             </button>
             <button 
               onClick={handleDelete}
               className="btn delete"
             >
-              🗑️
+              Xóa
             </button>
           </div>
         </div>
